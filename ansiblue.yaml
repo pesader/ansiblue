@@ -7,7 +7,7 @@
 
   tasks:
     - name: Create and configure toolbox
-      include_tasks: playbooks/setup/setup.yaml
+      include_tasks: tasks/setup/setup.yaml
       tags: [always]
       args:
         apply:
