@@ -1,0 +1,5 @@
+- packages:
+  - hugo
+  - make
+  - gcc
+  - virtme

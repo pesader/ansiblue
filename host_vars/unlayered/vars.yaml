@@ -1,0 +1,4 @@
+packages:
+  - gnome-tweaks
+  - cargo
+  - ncdu

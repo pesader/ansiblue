@@ -1,0 +1,4 @@
+- name: Setup user {{ task_identifier }}
+  ansible.builtin.user:
+    name: "{{ ansible_user_id }}"
+    shell: "{{ toolbox.user.shell | default('/bin/zsh')}}"

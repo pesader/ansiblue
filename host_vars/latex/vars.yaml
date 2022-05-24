@@ -1,0 +1,4 @@
+packages:
+  - texlive-scheme-full
+  - python3-neovim
+
